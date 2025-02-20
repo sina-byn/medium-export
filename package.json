@@ -5,7 +5,6 @@
   "type": "module",
   "bin": "./dist/index.js",
   "scripts": {
-    "dev": "tsx index.ts --watch",
     "build": "tsc"
   },
   "keywords": [],
@@ -15,7 +14,6 @@
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.13.4",
     "@types/prompts": "^2.4.9",
-    "tsx": "^4.19.3",
     "typescript": "^5.7.3"
   },
   "dependencies": {
