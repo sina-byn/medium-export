@@ -9,6 +9,7 @@ import { program } from 'commander';
 import { resolveOptions, getMediumMarkdown, type Options } from './utils/index.js';
 
 program
+  .description('Command to convert Medium story to markdown')
   .option('-s, --story <string>', 'Medium story url')
   .option('-o, --output <string>', 'Output directory', '.output')
   .option('--no-author', 'Remove author info', true)
