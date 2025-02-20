@@ -1,15 +1,19 @@
 {
   "name": "medium-export",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
   "type": "module",
   "bin": "./dist/index.js",
+  "license": "MIT",
+  "description": "a cli to convert medium stories to markdown",
+  "author": "Sina Bayandorian <sina.sina.bayan@protonmail.com> (https://portfolio-sina-byn.vercel.app/)",
+  "repository": "github:sina-byn/medium-export",
+  "homepage": "http://npmjs.com/package/medium-export",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.13.4",
@@ -24,5 +28,18 @@
     "rehype-remark": "^10.0.0",
     "remark-stringify": "^11.0.0",
     "unified": "^11.0.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sina-byn/medium-export/issues",
+    "email": "sina.sina.bayan@protonmail.com"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "remark",
+    "rehype",
+    "unified",
+    "javascript",
+    "medium-article"
+  ]
 }
