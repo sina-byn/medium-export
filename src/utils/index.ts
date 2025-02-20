@@ -8,7 +8,13 @@ import rehypeRemark from 'rehype-remark';
 import remarkStringify from 'remark-stringify';
 
 // * types
-export type Options = { story?: string; output: string; author: boolean; image: boolean };
+export type Options = {
+  story?: string;
+  output: string;
+  image: boolean;
+  author: boolean;
+  append: boolean;
+};
 
 export const resolveOptions = async (opts: Options) => {
   let { story, output } = opts;
