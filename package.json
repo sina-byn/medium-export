@@ -1,6 +1,6 @@
 {
   "name": "medium-export",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "bin": "./dist/index.js",
   "license": "MIT",
