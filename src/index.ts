@@ -10,7 +10,7 @@ import { resolveOptions, getMediumMarkdown, type Options } from './utils/index.j
 
 program
   .description('Command to convert Medium story to markdown')
-  .option('-o, --output <string>', 'Output file|directory', '.output')
+  .option('-o, --output <string>', 'Output file|directory')
   .option('-s, --story <string>', 'Medium story url')
   .option('-a, --append', 'Remove author info', false)
   .option('--no-author', 'Remove author info', true)
