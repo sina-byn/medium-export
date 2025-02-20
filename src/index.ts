@@ -52,7 +52,7 @@ program
       const content = document.querySelector('article section')!;
 
       // * remove author info
-      if (!author) content.querySelector('h1+div');
+      if (!author) content.querySelector('h1+div')?.remove();
 
       // * remove images
       if (!image) content.querySelectorAll('figure:has(img)').forEach(figure => figure.remove());
